@@ -1,3 +1,4 @@
+# Trigger temporary CI after base workflow installation
 name: BelRailWatcher temporary APK build
 
 on:
