@@ -3,6 +3,8 @@ name: BelRailWatcher temporary APK build
 on:
   push:
     branches: [ belrailwatcher-build ]
+  pull_request:
+    branches: [ master ]
   workflow_dispatch:
 
 jobs:
